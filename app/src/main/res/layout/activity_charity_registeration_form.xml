@@ -191,7 +191,7 @@
         android:id="@+id/btnRegister"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#E92FB2ED"
+        android:backgroundTint="#0CC0DF"
         android:text="Register"
         tools:layout_editor_absoluteX="147dp"
         tools:layout_editor_absoluteY="644dp" />
