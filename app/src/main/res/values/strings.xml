@@ -1,3 +1,47 @@
 <resources>
     <string name="app_name">Project</string>
+    <!--    for individual LogIn-->
+    <string name="logInTxt">Log In</string>
+    <string name="usernInput">Email</string>
+    <string name="passwInput">Password</string>
+    <string name="logInBtn">Log In</string>
+    <string name="cancelBtn">Cancel</string>
+    <string name="notSignedUp">Do not have an account yet?</string>
+    <string name="signUpBtn">Sign Up</string>
+
+    <!--    for sign up page -->
+    <string name="signUpTxt">Sign Up</string>
+    <string name="nameInput">Name</string>
+    <string name="emailInput">Email</string>
+    <string name="telInput">Telephone No</string>
+    <string name="rePasswInput">Re-enter Password</string>
+    <string name="termsNCond">I agree to terms and condions.</string>
+    <string name="btnSignUp">Sign Up</string>
+    <!--    sign up prt 2-->
+    <string name="addProfilePic">Add a profile picture...</string>
+    <string name="addDesc">Tell us a little about yourself...</string>
+    <string name="skipBtn">Skip</string>
+    <string name="saveBtn">Save</string>
+
+    <!--    charity causes -->
+    <string name="charityTxt">Choose a cause to fight for...</string>
+    <string name="chckBx1">Food Scarcity</string>
+    <string name="chckBx2">Medical Expenses</string>
+    <string name="chckBx3">Education</string>
+    <string name="chckBx4">Homelessness</string>
+    <string name="chckBx5">Child And Elderly Care</string>
+    <string name="seeOrgBtn">See Charity Organizations</string>
+
+    <!--    user profile-->
+    <string name="userProfTxt">User Profile</string>
+    <string name="usernDisplay">user1234</string>
+    <string name="nameDispTxt">Name</string>
+    <string name="nameDisp">a. b. c. d. efgh</string>
+    <string name="emailDispTxt">Email</string>
+    <string name="emailDisp">abcd@gmail.com</string>
+    <string name="PasswDispTxt">Password</string>
+    <string name="passwDisp">12364ad4</string>
+    <string name="telDispTxt">Telephone</string>
+    <string name="telDisp">07x-xxxxxxx</string>
+    <string name="discDip">abcd efght hdakhjakk fndk nfanfak</string>
 </resources>
