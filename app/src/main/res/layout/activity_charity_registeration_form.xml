@@ -121,8 +121,23 @@
         android:ems="10"
         android:hint="enter registration id"
         android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="187dp"
-        tools:layout_editor_absoluteY="481dp" />
+        tools:layout_editor_absoluteX="188dp"
+        tools:layout_editor_absoluteY="223dp" />
+
+    <TextView
+        android:id="@+id/labeltxtOffweb"
+        android:layout_width="168dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Voluntary social services id:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/edtwebsite"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="225dp" />
 
     <EditText
         android:id="@+id/edtPassword"
@@ -180,21 +195,6 @@
         android:text="Register"
         tools:layout_editor_absoluteX="147dp"
         tools:layout_editor_absoluteY="644dp" />
-
-    <TextView
-        android:id="@+id/labeltxtOffweb"
-        android:layout_width="168dp"
-        android:layout_height="37dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
-        android:fontFamily="sans-serif-condensed"
-        android:text="Voluntary social services id:"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toStartOf="@+id/edtwebsite"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="483dp" />
 
     <EditText
         android:id="@+id/edtEmail"
@@ -279,8 +279,8 @@
         android:ems="10"
         android:hint="enter official website"
         android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="187dp"
-        tools:layout_editor_absoluteY="226dp" />
+        tools:layout_editor_absoluteX="188dp"
+        tools:layout_editor_absoluteY="482dp" />
 
     <TextView
         android:id="@+id/labeltxtOffweb2"
@@ -295,7 +295,7 @@
         app:layout_constraintEnd_toStartOf="@+id/edtwebsite"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="240dp" />
+        tools:layout_editor_absoluteY="496dp" />
 
     <ImageView
         android:id="@+id/imageView"

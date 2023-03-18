@@ -7,49 +7,71 @@
     tools:context=".Charity_Profile">
 
     <TextView
-        android:id="@+id/labeltxtOrganizer3"
+        android:id="@+id/charityOgName2"
+        android:layout_width="0dp"
+        android:layout_height="22dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton2"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/labeltxtOrganizer3"
+        tools:layout_editor_absoluteY="116dp" />
+
+    <TextView
+        android:id="@+id/labeltxtOrganizer2"
         android:layout_width="185dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         android:fontFamily="sans-serif-condensed"
-        android:text="Organizer name :"
+        android:text="Voluntary social services id:"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toStartOf="@+id/edtOgname"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="223dp" />
+        tools:layout_editor_absoluteY="116dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="29dp"
+        android:layout_height="32dp"
+        android:backgroundTint="#E92FB2ED"
+        app:srcCompat="@drawable/baseline_edit_24"
+        tools:layout_editor_absoluteX="369dp"
+        tools:layout_editor_absoluteY="319dp" />
 
     <TextView
-        android:id="@+id/labeltxtOffweb3"
+        android:id="@+id/charityMail2"
+        android:layout_width="0dp"
+        android:layout_height="22dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton4"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/labeltxtEmail3"
+        tools:layout_editor_absoluteY="329dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton9"
+        android:layout_width="29dp"
+        android:layout_height="32dp"
+        android:backgroundTint="#E92FB2ED"
+        app:srcCompat="@drawable/baseline_edit_24"
+        tools:layout_editor_absoluteX="373dp"
+        tools:layout_editor_absoluteY="385dp" />
+
+    <TextView
+        android:id="@+id/labeltxtPassword3"
         android:layout_width="185dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
         android:fontFamily="sans-serif-condensed"
-        android:text="Website :"
+        android:text="Password :"
         android:textSize="16sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toStartOf="@+id/edtwebsite"
+        app:layout_constraintEnd_toStartOf="@+id/edtPassword"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="289dp" />
-
-    <TextView
-        android:id="@+id/labeltxtName3"
-        android:layout_width="185dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
-        android:fontFamily="sans-serif-condensed"
-        android:text="Name :"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toStartOf="@+id/edtCharityname"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="163dp" />
+        tools:layout_editor_absoluteY="530dp" />
 
     <TextView
         android:id="@+id/labeltxtTeleno3"
@@ -64,7 +86,7 @@
         app:layout_constraintEnd_toStartOf="@+id/edtTeleNo"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="420dp" />
+        tools:layout_editor_absoluteY="395dp" />
 
     <TextView
         android:id="@+id/labeltxtKeycontact3"
@@ -79,7 +101,26 @@
         app:layout_constraintEnd_toStartOf="@+id/edtPersonnumber"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="487dp" />
+        tools:layout_editor_absoluteY="462dp" />
+
+    <TextView
+        android:id="@+id/charityPersonphone"
+        android:layout_width="0dp"
+        android:layout_height="22dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton6"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/labeltxtKeycontact3"
+        tools:layout_editor_absoluteY="462dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="29dp"
+        android:layout_height="32dp"
+        android:backgroundTint="#E92FB2ED"
+        app:srcCompat="@drawable/baseline_edit_24"
+        tools:layout_editor_absoluteX="373dp"
+        tools:layout_editor_absoluteY="452dp" />
 
     <TextView
         android:id="@+id/labeltxtEmail3"
@@ -94,21 +135,162 @@
         app:layout_constraintEnd_toStartOf="@+id/edtEmail"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="354dp" />
+        tools:layout_editor_absoluteY="272dp" />
 
     <TextView
-        android:id="@+id/labeltxtPassword3"
+        android:id="@+id/labeltxtEmail4"
         android:layout_width="185dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
         android:fontFamily="sans-serif-condensed"
-        android:text="Password :"
+        android:text="Charity  registered address :"
         android:textSize="16sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toStartOf="@+id/edtPassword"
+        app:layout_constraintEnd_toStartOf="@+id/edtEmail"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="555dp" />
+        tools:layout_editor_absoluteY="329dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="29dp"
+        android:layout_height="32dp"
+        android:backgroundTint="#E92FB2ED"
+        app:srcCompat="@drawable/baseline_edit_24"
+        tools:layout_editor_absoluteX="369dp"
+        tools:layout_editor_absoluteY="262dp" />
+
+    <TextView
+        android:id="@+id/charityMail"
+        android:layout_width="0dp"
+        android:layout_height="22dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton4"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/labeltxtEmail3"
+        tools:layout_editor_absoluteY="272dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="29dp"
+        android:layout_height="32dp"
+        android:backgroundTint="#E92FB2ED"
+        app:srcCompat="@drawable/baseline_edit_24"
+        tools:layout_editor_absoluteX="373dp"
+        tools:layout_editor_absoluteY="520dp" />
+
+    <TextView
+        android:id="@+id/charityTelephone"
+        android:layout_width="162dp"
+        android:layout_height="22dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton9"
+        app:layout_constraintStart_toEndOf="@+id/labeltxtTeleno3"
+        tools:layout_editor_absoluteY="395dp" />
+
+    <TextView
+        android:id="@+id/charityPassword"
+        android:layout_width="0dp"
+        android:layout_height="22dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton7"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/labeltxtPassword3"
+        tools:layout_editor_absoluteY="530dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="29dp"
+        android:layout_height="32dp"
+        android:backgroundTint="#E92FB2ED"
+        app:srcCompat="@drawable/baseline_edit_24"
+        tools:layout_editor_absoluteX="369dp"
+        tools:layout_editor_absoluteY="180dp" />
+
+    <TextView
+        android:id="@+id/charityOgName"
+        android:layout_width="0dp"
+        android:layout_height="22dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/labeltxtOrganizer3"
+        tools:layout_editor_absoluteY="190dp" />
+
+    <TextView
+        android:id="@+id/labeltxtOrganizer3"
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Organizer name :"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/edtOgname"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="190dp" />
+
+    <TextView
+        android:id="@+id/charityname"
+        android:layout_width="0dp"
+        android:layout_height="22dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/labeltxtName3"
+        tools:layout_editor_absoluteY="152dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="29dp"
+        android:layout_height="32dp"
+        android:backgroundTint="#E92FB2ED"
+        app:srcCompat="@drawable/baseline_edit_24"
+        tools:layout_editor_absoluteX="366dp"
+        tools:layout_editor_absoluteY="142dp" />
+
+    <TextView
+        android:id="@+id/labeltxtName3"
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Name :"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/edtCharityname"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="152dp" />
+
+    <TextView
+        android:id="@+id/labeltxtOffweb3"
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Website :"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/edtwebsite"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="230dp" />
+
+    <TextView
+        android:id="@+id/charityWebsite"
+        android:layout_width="0dp"
+        android:layout_height="22dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/labeltxtOffweb3"
+        tools:layout_editor_absoluteY="230dp" />
 
     <ImageView
         android:id="@+id/imageView3"
@@ -159,130 +341,13 @@
         app:layout_constraintTop_toBottomOf="@+id/btnsetBudget" />
 
     <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="29dp"
-        android:layout_height="32dp"
-        android:backgroundTint="#E92FB2ED"
-        app:srcCompat="@drawable/baseline_edit_24"
-        tools:layout_editor_absoluteX="373dp"
-        tools:layout_editor_absoluteY="153dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton2"
-        android:layout_width="29dp"
-        android:layout_height="32dp"
-        android:backgroundTint="#E92FB2ED"
-        app:srcCompat="@drawable/baseline_edit_24"
-        tools:layout_editor_absoluteX="373dp"
-        tools:layout_editor_absoluteY="213dp" />
-
-    <ImageButton
         android:id="@+id/imageButton3"
         android:layout_width="29dp"
         android:layout_height="32dp"
         android:backgroundTint="#E92FB2ED"
         app:srcCompat="@drawable/baseline_edit_24"
         tools:layout_editor_absoluteX="373dp"
-        tools:layout_editor_absoluteY="279dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton4"
-        android:layout_width="29dp"
-        android:layout_height="32dp"
-        android:backgroundTint="#E92FB2ED"
-        app:srcCompat="@drawable/baseline_edit_24"
-        tools:layout_editor_absoluteX="373dp"
-        tools:layout_editor_absoluteY="344dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton5"
-        android:layout_width="29dp"
-        android:layout_height="32dp"
-        android:backgroundTint="#E92FB2ED"
-        app:srcCompat="@drawable/baseline_edit_24"
-        tools:layout_editor_absoluteX="373dp"
-        tools:layout_editor_absoluteY="410dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton6"
-        android:layout_width="29dp"
-        android:layout_height="32dp"
-        android:backgroundTint="#E92FB2ED"
-        app:srcCompat="@drawable/baseline_edit_24"
-        tools:layout_editor_absoluteX="373dp"
-        tools:layout_editor_absoluteY="477dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton7"
-        android:layout_width="29dp"
-        android:layout_height="32dp"
-        android:backgroundTint="#E92FB2ED"
-        app:srcCompat="@drawable/baseline_edit_24"
-        tools:layout_editor_absoluteX="373dp"
-        tools:layout_editor_absoluteY="545dp" />
-
-    <TextView
-        android:id="@+id/charityname"
-        android:layout_width="0dp"
-        android:layout_height="22dp"
-        android:text="TextView"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton"
-        app:layout_constraintStart_toEndOf="@+id/labeltxtName3"
-        tools:layout_editor_absoluteY="163dp" />
-
-    <TextView
-        android:id="@+id/charityOgName"
-        android:layout_width="0dp"
-        android:layout_height="22dp"
-        android:text="TextView"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton2"
-        app:layout_constraintStart_toEndOf="@+id/labeltxtOrganizer3"
-        tools:layout_editor_absoluteY="223dp" />
-
-    <TextView
-        android:id="@+id/charityWebsite"
-        android:layout_width="0dp"
-        android:layout_height="22dp"
-        android:text="TextView"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton3"
-        app:layout_constraintStart_toEndOf="@+id/labeltxtOffweb3"
-        tools:layout_editor_absoluteY="289dp" />
-
-    <TextView
-        android:id="@+id/charityMail"
-        android:layout_width="0dp"
-        android:layout_height="22dp"
-        android:text="TextView"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton4"
-        app:layout_constraintStart_toEndOf="@+id/labeltxtEmail3"
-        tools:layout_editor_absoluteY="354dp" />
-
-    <TextView
-        android:id="@+id/charityTelephone"
-        android:layout_width="0dp"
-        android:layout_height="22dp"
-        android:text="TextView"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton5"
-        app:layout_constraintStart_toEndOf="@+id/labeltxtTeleno3"
-        tools:layout_editor_absoluteY="420dp" />
-
-    <TextView
-        android:id="@+id/charityPersonphone"
-        android:layout_width="0dp"
-        android:layout_height="22dp"
-        android:text="TextView"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton6"
-        app:layout_constraintStart_toEndOf="@+id/labeltxtKeycontact3"
-        tools:layout_editor_absoluteY="487dp" />
-
-    <TextView
-        android:id="@+id/charityPassword"
-        android:layout_width="0dp"
-        android:layout_height="22dp"
-        android:text="TextView"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton7"
-        app:layout_constraintStart_toEndOf="@+id/labeltxtPassword3"
-        tools:layout_editor_absoluteY="555dp" />
+        tools:layout_editor_absoluteY="220dp" />
 
     <Button
         android:id="@+id/button2"
