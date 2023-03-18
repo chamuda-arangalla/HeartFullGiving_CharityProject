@@ -20,36 +20,40 @@
         tools:layout_editor_absoluteY="16dp" />
 
     <EditText
-        android:id="@+id/edtEmail2"
+        android:id="@+id/formCharityEmail"
         android:layout_width="186dp"
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="enter official email"
-        android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="187dp"
-        tools:layout_editor_absoluteY="275dp" />
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/formCharityAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/formlblCharityEmail"
+        app:layout_constraintTop_toBottomOf="@+id/formRegistrationID" />
 
     <TextView
-        android:id="@+id/labeltxtEmail2"
-        android:layout_width="185dp"
-        android:layout_height="wrap_content"
+        android:id="@+id/formlblCharityEmail"
+        android:layout_width="137dp"
+        android:layout_height="24dp"
         android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
         android:fontFamily="sans-serif-condensed"
-        android:text="Email :"
+        android:text="@string/formlblCharityEmail"
         android:textSize="16sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toStartOf="@+id/edtEmail"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintBottom_toTopOf="@+id/formlblCharityAddress"
+        app:layout_constraintEnd_toStartOf="@+id/formCharityEmail"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="290dp" />
+        app:layout_constraintTop_toBottomOf="@+id/formlblRegistrationID" />
 
     <TextView
         android:id="@+id/titleCharityRegister"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-black"
-        android:text="Charity Registration"
+        android:text="@string/titleCharityRegister"
+        android:textColor="#050505"
         android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -57,29 +61,32 @@
         tools:layout_editor_absoluteY="48dp" />
 
     <EditText
-        android:id="@+id/edtCharityname"
+        android:id="@+id/formCharityName"
         android:layout_width="186dp"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="enter charity name"
-        android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="187dp"
-        tools:layout_editor_absoluteY="118dp" />
+        android:hint="enter name"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/formOgName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/formlblCharityName"
+        app:layout_constraintTop_toBottomOf="@+id/titleCharityRegister" />
 
     <TextView
-        android:id="@+id/labeltxtName"
-        android:layout_width="185dp"
-        android:layout_height="wrap_content"
+        android:id="@+id/formlblCharityName"
+        android:layout_width="137dp"
+        android:layout_height="25dp"
         android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
         android:fontFamily="sans-serif-condensed"
-        android:text="Name :"
+        android:text="@string/formlblCharityName"
         android:textSize="16sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toStartOf="@+id/edtCharityname"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintBottom_toTopOf="@+id/formlblOgName"
+        app:layout_constraintEnd_toStartOf="@+id/formCharityName"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="130dp" />
+        app:layout_constraintTop_toBottomOf="@+id/titleCharityRegister" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -87,215 +94,213 @@
         android:layout_height="137dp"
         app:srcCompat="@drawable/fotor_2023_3_17_10_12_34"
         tools:layout_editor_absoluteX="312dp"
-        tools:layout_editor_absoluteY="604dp" />
+        tools:layout_editor_absoluteY="659dp" />
 
     <EditText
-        android:id="@+id/edtOgname"
+        android:id="@+id/formOgName"
         android:layout_width="186dp"
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="enter organizer name"
-        android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="187dp"
-        tools:layout_editor_absoluteY="171dp" />
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/formRegistrationID"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/formlblOgName"
+        app:layout_constraintTop_toBottomOf="@+id/formCharityName" />
 
     <TextView
-        android:id="@+id/labeltxtOrganizer"
-        android:layout_width="185dp"
-        android:layout_height="wrap_content"
+        android:id="@+id/formlblOgName"
+        android:layout_width="136dp"
+        android:layout_height="20dp"
         android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
         android:fontFamily="sans-serif-condensed"
-        android:text="Organizer name :"
+        android:text="@string/formlblOgName"
         android:textSize="16sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toStartOf="@+id/edtOgname"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintBottom_toTopOf="@+id/formlblRegistrationID"
+        app:layout_constraintEnd_toStartOf="@+id/formOgName"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="183dp" />
+        app:layout_constraintTop_toBottomOf="@+id/formlblCharityName" />
 
     <EditText
-        android:id="@+id/edtwebsite"
+        android:id="@+id/formRegistrationID"
         android:layout_width="186dp"
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="enter registration id"
-        android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="188dp"
-        tools:layout_editor_absoluteY="223dp" />
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/formCharityEmail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/formlblRegistrationID"
+        app:layout_constraintTop_toBottomOf="@+id/formOgName" />
 
     <TextView
-        android:id="@+id/labeltxtOffweb"
-        android:layout_width="168dp"
-        android:layout_height="37dp"
+        android:id="@+id/formlblRegistrationID"
+        android:layout_width="137dp"
+        android:layout_height="40dp"
         android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
         android:fontFamily="sans-serif-condensed"
-        android:text="Voluntary social services id:"
+        android:text="@string/formlblRegistrationID"
         android:textSize="16sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toStartOf="@+id/edtwebsite"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintBottom_toTopOf="@+id/formlblCharityEmail"
+        app:layout_constraintEnd_toStartOf="@+id/formRegistrationID"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="225dp" />
+        app:layout_constraintTop_toBottomOf="@+id/formlblOgName" />
 
     <EditText
-        android:id="@+id/edtPassword"
+        android:id="@+id/formCharityPassword"
         android:layout_width="186dp"
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="enter password"
         android:inputType="textPassword"
-        tools:layout_editor_absoluteX="187dp"
-        tools:layout_editor_absoluteY="535dp" />
+        app:layout_constraintBottom_toTopOf="@+id/btnRegister"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/formlblCharityPassword"
+        app:layout_constraintTop_toBottomOf="@+id/formcharityWebsite" />
 
     <TextView
-        android:id="@+id/labeltxtPassword"
-        android:layout_width="185dp"
-        android:layout_height="wrap_content"
+        android:id="@+id/formlblCharityPassword"
+        android:layout_width="137dp"
+        android:layout_height="35dp"
         android:layout_marginStart="20dp"
         android:fontFamily="sans-serif-condensed"
-        android:text="Password :"
+        android:text="@string/formlblCharityPassword"
         android:textSize="16sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toStartOf="@+id/edtPassword"
-        app:layout_constraintHorizontal_bias="0.055"
+        app:layout_constraintBottom_toTopOf="@+id/btnRegister"
+        app:layout_constraintEnd_toStartOf="@+id/formCharityPassword"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="548dp" />
-
-    <EditText
-        android:id="@+id/edtRetypePassword"
-        android:layout_width="186dp"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="re-enter password"
-        android:inputType="textPassword"
-        tools:layout_editor_absoluteX="187dp"
-        tools:layout_editor_absoluteY="589dp" />
-
-    <TextView
-        android:id="@+id/labeltxtRetypePassword"
-        android:layout_width="166dp"
-        android:layout_height="22dp"
-        android:layout_marginStart="20dp"
-        android:fontFamily="sans-serif-condensed"
-        android:text="Retype Password :"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toStartOf="@+id/edtRetypePassword"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="598dp" />
+        app:layout_constraintTop_toBottomOf="@+id/formlblcharityWebsite" />
 
     <Button
         android:id="@+id/btnRegister"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#0CC0DF"
-        android:text="Register"
+        android:text="@string/btnRegister"
         tools:layout_editor_absoluteX="147dp"
         tools:layout_editor_absoluteY="644dp" />
 
     <EditText
-        android:id="@+id/edtEmail"
+        android:id="@+id/formCharityAddress"
         android:layout_width="186dp"
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="enter address"
-        android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="188dp"
-        tools:layout_editor_absoluteY="334dp" />
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/formTeleNo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/formlblCharityAddress"
+        app:layout_constraintTop_toBottomOf="@+id/formCharityEmail" />
 
     <TextView
-        android:id="@+id/labeltxtEmail"
-        android:layout_width="168dp"
-        android:layout_height="39dp"
+        android:id="@+id/formlblCharityAddress"
+        android:layout_width="137dp"
+        android:layout_height="36dp"
         android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
         android:fontFamily="sans-serif-condensed"
         android:hint="enter address"
-        android:text="Charity  registered address :"
+        android:text="@string/formlblCharityAddress"
         android:textSize="16sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toStartOf="@+id/edtEmail"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintBottom_toTopOf="@+id/formlblTeleNum"
+        app:layout_constraintEnd_toStartOf="@+id/formCharityAddress"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="337dp" />
+        app:layout_constraintTop_toBottomOf="@+id/formlblCharityEmail" />
 
     <EditText
-        android:id="@+id/edtPersonnumber"
+        android:id="@+id/formPersonNum"
         android:layout_width="186dp"
         android:layout_height="45dp"
         android:ems="10"
         android:hint="077-xxxxxxx"
         android:inputType="phone"
-        tools:layout_editor_absoluteX="188dp"
-        tools:layout_editor_absoluteY="430dp" />
+        app:layout_constraintBottom_toTopOf="@+id/formcharityWebsite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/formlblPersonNum"
+        app:layout_constraintTop_toBottomOf="@+id/formTeleNo" />
 
     <TextView
-        android:id="@+id/labeltxtKeycontact"
-        android:layout_width="185dp"
-        android:layout_height="wrap_content"
+        android:id="@+id/formlblPersonNum"
+        android:layout_width="137dp"
+        android:layout_height="24dp"
         android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
         android:fontFamily="sans-serif-condensed"
-        android:text="Key Contact person :"
+        android:text="@string/formlblPersonNum"
         android:textSize="16sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toStartOf="@+id/edtPersonnumber"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintBottom_toTopOf="@+id/formlblcharityWebsite"
+        app:layout_constraintEnd_toStartOf="@+id/formPersonNum"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="440dp" />
+        app:layout_constraintTop_toBottomOf="@+id/formlblTeleNum" />
 
     <EditText
-        android:id="@+id/edtTeleNo"
+        android:id="@+id/formTeleNo"
         android:layout_width="186dp"
         android:layout_height="43dp"
         android:ems="10"
         android:hint="011-xxxxxxx"
         android:inputType="phone"
-        tools:layout_editor_absoluteX="188dp"
-        tools:layout_editor_absoluteY="387dp" />
+        app:layout_constraintBottom_toTopOf="@+id/formPersonNum"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/formlblTeleNum"
+        app:layout_constraintTop_toBottomOf="@+id/formCharityAddress" />
 
     <TextView
-        android:id="@+id/labeltxtTeleno"
-        android:layout_width="185dp"
-        android:layout_height="wrap_content"
+        android:id="@+id/formlblTeleNum"
+        android:layout_width="137dp"
+        android:layout_height="17dp"
         android:layout_marginStart="20dp"
-        android:layout_marginEnd="40dp"
         android:fontFamily="sans-serif-condensed"
-        android:text="Telephone No :"
+        android:text="@string/formlblTeleNum"
         android:textSize="16sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toStartOf="@+id/edtTeleNo"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintBottom_toTopOf="@+id/formlblPersonNum"
+        app:layout_constraintEnd_toStartOf="@+id/formTeleNo"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="395dp" />
+        app:layout_constraintTop_toBottomOf="@+id/formlblCharityAddress" />
 
     <EditText
-        android:id="@+id/edtwebsite2"
+        android:id="@+id/formcharityWebsite"
         android:layout_width="186dp"
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="enter official website"
-        android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="188dp"
-        tools:layout_editor_absoluteY="482dp" />
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/formCharityPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/formlblcharityWebsite"
+        app:layout_constraintTop_toBottomOf="@+id/formPersonNum" />
 
     <TextView
-        android:id="@+id/labeltxtOffweb2"
-        android:layout_width="185dp"
-        android:layout_height="wrap_content"
+        android:id="@+id/formlblcharityWebsite"
+        android:layout_width="139dp"
+        android:layout_height="30dp"
         android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
         android:fontFamily="sans-serif-condensed"
-        android:text="Website :"
+        android:text="@string/formlblcharityWebsite"
         android:textSize="16sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toStartOf="@+id/edtwebsite"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintBottom_toTopOf="@+id/formlblCharityPassword"
+        app:layout_constraintEnd_toStartOf="@+id/formcharityWebsite"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="496dp" />
+        app:layout_constraintTop_toBottomOf="@+id/formlblPersonNum" />
 
     <ImageView
         android:id="@+id/imageView"

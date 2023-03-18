@@ -8,8 +8,8 @@
 
     <EditText
         android:id="@+id/usernInput"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="364dp"
+        android:layout_height="46dp"
         android:ems="10"
         android:hint="@string/usernInput"
         android:inputType="textPersonName"
@@ -17,41 +17,39 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="47dp" />
+        tools:layout_editor_absoluteY="46dp" />
 
     <EditText
         android:id="@+id/passwInput"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="364dp"
+        android:layout_height="49dp"
         android:ems="10"
         android:hint="@string/passwInput"
         android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="120dp" />
+        tools:layout_editor_absoluteY="116dp" />
 
     <Button
         android:id="@+id/logInBtn"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:backgroundTint="@color/lightBlue"
+        android:layout_width="207dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#0CC0DF"
         android:text="@string/logInBtn"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="209dp" />
+        tools:layout_editor_absoluteY="234dp" />
 
     <Button
         android:id="@+id/cancelBtn"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:backgroundTint="@color/lightBlue"
+        android:layout_width="207dp"
+        android:layout_height="56dp"
+        android:backgroundTint="#0CC0DF"
         android:text="@string/cancelBtn"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="290dp" />
+        tools:layout_editor_absoluteY="311dp" />
 
     <TextView
         android:id="@+id/notSignedUp"
@@ -66,7 +64,7 @@
         android:id="@+id/signUpBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/lightBlue"
+        android:backgroundTint="#0CC0DF"
         android:text="@string/signUpBtn"
         tools:layout_editor_absoluteX="301dp"
         tools:layout_editor_absoluteY="539dp" />

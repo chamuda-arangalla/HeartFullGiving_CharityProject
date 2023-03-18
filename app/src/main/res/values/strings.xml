@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Project</string>
+    <string name="app_name">HeartfulGiving</string>
     <!--    for individual LogIn-->
     <string name="logInTxt">Log In</string>
     <string name="usernInput">Email</string>
@@ -23,6 +23,12 @@
     <string name="skipBtn">Skip</string>
     <string name="saveBtn">Save</string>
 
+    
+    <!--    for sign up button page -->
+    <string name="btnBackSignup">back</string>
+    <string name="btnDonorSignup">As a Donor</string>
+    <string name="btnCharitySignup">AS a Charity</string>
+
     <!--    charity causes -->
     <string name="charityTxt">Choose a cause to fight for...</string>
     <string name="chckBx1">Food Scarcity</string>
@@ -44,4 +50,62 @@
     <string name="telDispTxt">Telephone</string>
     <string name="telDisp">07x-xxxxxxx</string>
     <string name="discDip">abcd efght hdakhjakk fndk nfanfak</string>
+
+    <!--    charity profile-->
+
+    <string name="btnBackCharityprofile">back</string>
+    <string name="btnCharityProfileEdt">Edit Profile</string>
+
+    <string name="titleCprofile">Profile</string>
+
+    <string name="lblRegistrationID">Voluntary social services id:</string>
+    <string name="RegistrationID">v200089</string>
+    <string name="lblCharityName">Name :</string>
+    <string name="CharityName">ABC Charity</string>
+    <string name="lblOgName">Organizer name :</string>
+    <string name="OgName">A.M Kumara</string>
+    <string name="lblcharityWebsite">Website :</string>
+    <string name="charityWebsite">ABC.lk</string>
+    <string name="lblCharityEmail">Email :</string>
+    <string name="CharityEmail">abc@gmail.com</string>
+    <string name="lblCharityAddress">Charity  registered address :</string>
+    <string name="CharityAddress">No:20,abc.</string>
+    <string name="lblTeleNum">Telephone No :</string>
+    <string name="TeleNo">011-XXXXXXX</string>
+    <string name="lblPersonNum">Key Contact person :</string>
+    <string name="PersonNum">077-XXXXXXX</string>
+    <string name="lblCharityPassword">Password :</string>
+    <string name="CharityPassword">CG@00</string>
+
+    <string name="btnsetBudget">set charity budget</string>
+    <string name="btnsetInvetory">Set need items</string>
+
+    <!--  charity Registration Form-->
+
+    <string name="titleCharityRegister">Charity Registration</string>
+
+
+    <string name="formlblCharityName">Name :</string>
+    <string name="formCharityName"></string>
+    <string name="formlblOgName">Organizer name :</string>
+    <string name="formOgName"></string>
+    <string name="formlblRegistrationID">Voluntary social services id:</string>
+    <string name="formRegistrationID"></string>
+    <string name="formlblCharityEmail">Email :</string>
+    <string name="formCharityEmail"></string>
+    <string name="formlblCharityAddress">Charity  registered address :</string>
+    <string name="formCharityAddress"></string>
+    <string name="formlblTeleNum">Telephone No :</string>
+    <string name="formTeleNo"></string>
+    <string name="formlblPersonNum">Key Contact person :</string>
+    <string name="formPersonNum"></string>
+    <string name="formlblcharityWebsite">Website :</string>
+    <string name="formcharityWebsite"></string>
+    <string name="formlblCharityPassword">Password :</string>
+    <string name="formCharityPassword"></string>
+
+    <string name="btnRegister">Register</string>
+
+
+
 </resources>
