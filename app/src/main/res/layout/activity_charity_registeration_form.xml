@@ -6,6 +6,44 @@
     android:layout_height="match_parent"
     tools:context=".Charity_RegisterationForm">
 
+    <Button
+        android:id="@+id/button"
+        android:layout_width="62dp"
+        android:layout_height="39dp"
+        android:backgroundTint="#E9525353"
+        android:freezesText="false"
+        android:text="back"
+        android:textColor="#FFFFFF"
+        android:textSize="8sp"
+        android:textStyle="normal"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/edtEmail2"
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="enter official email"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="187dp"
+        tools:layout_editor_absoluteY="275dp" />
+
+    <TextView
+        android:id="@+id/labeltxtEmail2"
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Email :"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/edtEmail"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="290dp" />
+
     <TextView
         android:id="@+id/titleCharityRegister"
         android:layout_width="wrap_content"
@@ -26,37 +64,7 @@
         android:hint="enter charity name"
         android:inputType="textPersonName"
         tools:layout_editor_absoluteX="187dp"
-        tools:layout_editor_absoluteY="151dp" />
-
-    <EditText
-        android:id="@+id/edtOgname"
-        android:layout_width="186dp"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="enter organizer name"
-        android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="187dp"
-        tools:layout_editor_absoluteY="211dp" />
-
-    <EditText
-        android:id="@+id/edtEmail"
-        android:layout_width="186dp"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="enter official email"
-        android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="187dp"
-        tools:layout_editor_absoluteY="339dp" />
-
-    <EditText
-        android:id="@+id/edtwebsite"
-        android:layout_width="186dp"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="enter official website"
-        android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="187dp"
-        tools:layout_editor_absoluteY="275dp" />
+        tools:layout_editor_absoluteY="118dp" />
 
     <TextView
         android:id="@+id/labeltxtName"
@@ -71,7 +79,25 @@
         app:layout_constraintEnd_toStartOf="@+id/edtCharityname"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="163dp" />
+        tools:layout_editor_absoluteY="130dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="198dp"
+        android:layout_height="137dp"
+        app:srcCompat="@drawable/fotor_2023_3_17_10_12_34"
+        tools:layout_editor_absoluteX="312dp"
+        tools:layout_editor_absoluteY="604dp" />
+
+    <EditText
+        android:id="@+id/edtOgname"
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="enter organizer name"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="187dp"
+        tools:layout_editor_absoluteY="171dp" />
 
     <TextView
         android:id="@+id/labeltxtOrganizer"
@@ -86,52 +112,125 @@
         app:layout_constraintEnd_toStartOf="@+id/edtOgname"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="223dp" />
+        tools:layout_editor_absoluteY="183dp" />
+
+    <EditText
+        android:id="@+id/edtwebsite"
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="enter registration id"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="187dp"
+        tools:layout_editor_absoluteY="481dp" />
+
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="enter password"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="187dp"
+        tools:layout_editor_absoluteY="535dp" />
 
     <TextView
-        android:id="@+id/labeltxtOffweb"
+        android:id="@+id/labeltxtPassword"
         android:layout_width="185dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Password :"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/edtPassword"
+        app:layout_constraintHorizontal_bias="0.055"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="548dp" />
+
+    <EditText
+        android:id="@+id/edtRetypePassword"
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="re-enter password"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="187dp"
+        tools:layout_editor_absoluteY="589dp" />
+
+    <TextView
+        android:id="@+id/labeltxtRetypePassword"
+        android:layout_width="166dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="20dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Retype Password :"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/edtRetypePassword"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="598dp" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E92FB2ED"
+        android:text="Register"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="644dp" />
+
+    <TextView
+        android:id="@+id/labeltxtOffweb"
+        android:layout_width="168dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         android:fontFamily="sans-serif-condensed"
-        android:text="Website :"
+        android:text="Voluntary social services id:"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toStartOf="@+id/edtwebsite"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="289dp" />
+        tools:layout_editor_absoluteY="483dp" />
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="enter address"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="188dp"
+        tools:layout_editor_absoluteY="334dp" />
 
     <TextView
         android:id="@+id/labeltxtEmail"
-        android:layout_width="185dp"
-        android:layout_height="wrap_content"
+        android:layout_width="168dp"
+        android:layout_height="39dp"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         android:fontFamily="sans-serif-condensed"
-        android:text="Email :"
+        android:hint="enter address"
+        android:text="Charity  registered address :"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toStartOf="@+id/edtEmail"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="354dp" />
+        tools:layout_editor_absoluteY="337dp" />
 
-    <TextView
-        android:id="@+id/labeltxtTeleno"
-        android:layout_width="185dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="40dp"
-        android:fontFamily="sans-serif-condensed"
-        android:text="Telephone No :"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toStartOf="@+id/edtTeleNo"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="420dp" />
+    <EditText
+        android:id="@+id/edtPersonnumber"
+        android:layout_width="186dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:hint="077-xxxxxxx"
+        android:inputType="phone"
+        tools:layout_editor_absoluteX="188dp"
+        tools:layout_editor_absoluteY="430dp" />
 
     <TextView
         android:id="@+id/labeltxtKeycontact"
@@ -146,35 +245,7 @@
         app:layout_constraintEnd_toStartOf="@+id/edtPersonnumber"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="487dp" />
-
-    <TextView
-        android:id="@+id/labeltxtPassword"
-        android:layout_width="185dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:fontFamily="sans-serif-condensed"
-        android:text="Password :"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toStartOf="@+id/edtPassword"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="555dp" />
-
-    <TextView
-        android:id="@+id/labeltxtRetypePassword"
-        android:layout_width="185dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:fontFamily="sans-serif-condensed"
-        android:text="Retype Password :"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toStartOf="@+id/edtRetypePassword"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="615dp" />
+        tools:layout_editor_absoluteY="440dp" />
 
     <EditText
         android:id="@+id/edtTeleNo"
@@ -183,38 +254,48 @@
         android:ems="10"
         android:hint="011-xxxxxxx"
         android:inputType="phone"
-        tools:layout_editor_absoluteX="187dp"
-        tools:layout_editor_absoluteY="412dp" />
+        tools:layout_editor_absoluteX="188dp"
+        tools:layout_editor_absoluteY="387dp" />
+
+    <TextView
+        android:id="@+id/labeltxtTeleno"
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="40dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Telephone No :"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/edtTeleNo"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="395dp" />
 
     <EditText
-        android:id="@+id/edtPersonnumber"
-        android:layout_width="186dp"
-        android:layout_height="45dp"
-        android:ems="10"
-        android:hint="077-xxxxxxx"
-        android:inputType="phone"
-        tools:layout_editor_absoluteX="187dp"
-        tools:layout_editor_absoluteY="477dp" />
-
-    <EditText
-        android:id="@+id/edtPassword"
+        android:id="@+id/edtwebsite2"
         android:layout_width="186dp"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="enter password"
-        android:inputType="textPassword"
+        android:hint="enter official website"
+        android:inputType="textPersonName"
         tools:layout_editor_absoluteX="187dp"
-        tools:layout_editor_absoluteY="542dp" />
+        tools:layout_editor_absoluteY="226dp" />
 
-    <EditText
-        android:id="@+id/edtRetypePassword"
-        android:layout_width="186dp"
+    <TextView
+        android:id="@+id/labeltxtOffweb2"
+        android:layout_width="185dp"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="re-enter password"
-        android:inputType="textPassword"
-        tools:layout_editor_absoluteX="187dp"
-        tools:layout_editor_absoluteY="606dp" />
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Website :"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/edtwebsite"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="240dp" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -223,14 +304,6 @@
         app:srcCompat="@drawable/fotor_2023_3_17_10_12_34"
         tools:layout_editor_absoluteX="-71dp"
         tools:layout_editor_absoluteY="-102dp" />
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="198dp"
-        android:layout_height="137dp"
-        app:srcCompat="@drawable/fotor_2023_3_17_10_12_34"
-        tools:layout_editor_absoluteX="312dp"
-        tools:layout_editor_absoluteY="637dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

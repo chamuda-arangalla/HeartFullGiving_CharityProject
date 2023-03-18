@@ -284,4 +284,17 @@
         app:layout_constraintStart_toEndOf="@+id/labeltxtPassword3"
         tools:layout_editor_absoluteY="555dp" />
 
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="62dp"
+        android:layout_height="39dp"
+        android:backgroundTint="#E9525353"
+        android:freezesText="false"
+        android:text="back"
+        android:textColor="#FFFFFF"
+        android:textSize="8sp"
+        android:textStyle="normal"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="16dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
